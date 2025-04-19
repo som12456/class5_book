@@ -1,0 +1,257 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>심장보다 단단한 토마토 한 알</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap" rel="stylesheet">
+  <style>
+    @font-face {
+      font-family: 'BookkMyungjo-Bd';
+      src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/BookkMyungjo-Bd.woff2') format('woff2');
+      font-weight: 700;
+      font-style: normal;
+    }
+
+    body {
+      background-color: #FFF8F5;
+      color: #333;
+      font-family: 'BookkMyungjo-Bd', 'Noto Serif KR', serif;
+      padding: 40px;
+      line-height: 1.8;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .book-cover {
+      width: 320px;
+      display: block;
+      margin: 0 auto 20px;
+      transition: all 0.3s ease;
+      box-shadow: 0 25px 35px rgba(0, 0, 0, 0.15);
+      border-radius: 4px;
+    }
+
+    .book-cover:hover {
+      content: url('img/02.jpg');
+    }
+
+    h1 {
+      font-size: 28px;
+      color: #D94F4F;
+    }
+
+    h2 {
+      margin-top: 40px;
+      color: #5E8A4D;
+      font-family: 'Noto Serif KR', serif;
+    }
+
+    .divider {
+      border-top: 1px dashed #E0A9A9;
+      margin: 60px 0;
+    }
+
+    .first-impression-two-col {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      margin: 60px 0;
+      padding: 40px;
+      background-color: #FAF6F0;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    }
+
+    .first-impression-two-col img {
+      width: 180px;
+      border-radius: 10px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      filter: brightness(0.95);
+    }
+
+    .first-impression-two-col .text-box {
+      flex: 1;
+    }
+
+    .first-impression-two-col h2 {
+      font-size: 22px;
+      color: #D94F4F;
+      margin-bottom: 15px;
+      font-family: 'Noto Serif KR', serif;
+    }
+
+    .first-impression-two-col p {
+      font-size: 16px;
+      color: #444;
+    }
+
+    .quote-block {
+      background: #FFF0F0;
+      padding: 30px;
+      border-left: 5px solid #D94F4F;
+      font-style: italic;
+      margin: 50px 0;
+    }
+
+    .caption {
+      text-align: center;
+      font-size: 15px;
+      font-style: italic;
+      color: #666;
+      margin: 40px 0 20px;
+    }
+
+    .buy-links {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .buy-links a {
+      display: inline-block;
+      padding: 8px 14px;
+      margin: 5px 10px;
+      background-color: #D94F4F;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    .insert-image {
+      max-width: 500px;
+      width: 100%;
+      margin: 30px auto;
+      display: block;
+      border-radius: 8px;
+      filter: brightness(0.95);
+      transition: transform 0.3s ease;
+    }
+
+    .insert-image:hover {
+      transform: scale(1.02);
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 100px;
+      font-size: 14px;
+      padding: 40px 20px;
+      background-color: #D94F4F;
+      color: #FFF8F5;
+    }
+
+    /* Animation */
+    .fade-in {
+      opacity: 0;
+      transform: translateY(40px);
+      transition: all 1s ease;
+    }
+
+    .fade-in.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+
+  <header class="fade-in">
+    <img src="img/01.jpg" alt="책 표지 이미지" class="book-cover">
+    <h1>심장보다 단단한 토마토 한 알 🍅</h1>
+    <p>고선경 시집</p>
+  </header>
+
+  <div class="divider fade-in"></div>
+
+  <section class="first-impression-two-col fade-in">
+    <img src="img/04.jpg" alt="토마토 감성 이미지">
+    <div class="text-box">
+      <h2>“심장보다 단단한 토마토”</h2>
+      <p>
+        심장보다 단단한 토마토 한 알』은 고선경 시인이 일상의 사소한 장면에서 마음의 결을 포착한 시집이다.<br>
+        사랑과 상처, 기억과 고백 같은 진심들이 단단하게 농익은 토마토처럼, 말랑하면서도 선명하게 다가온다.<br>
+        익숙한 것들 속에 숨어 있던 감정을 꺼내어, 읽는 이의 마음에 조용히 흔들림을 전한다.<br>
+        고요하지만 단단하게, 따뜻하지만 예리하게 삶을 들여다보는 시인의 시선이 인상적이다.
+      </p>
+    </div>
+  </section>
+
+  <section class="fade-in">
+    <h2>목차 📚</h2>
+    <ul>
+      <li>1부. 나는 행운을 껍질째 가져다줍니다</li>
+      <li>2부. 죽어서도 유망주가 되고 싶다</li>
+      <li>3부. 미래가 태어나려면 필요한 일들이었다</li>
+      <li>4부. 너의 팬이야</li>
+    </ul>
+  </section>
+
+  <section class="fade-in">
+    <h2>시 속 한 구절 🍅</h2>
+    <div class="quote-block">
+      “단단해지려 애쓰다 / 토마토는 익어버리게 되었다”<br><br>
+      마음은 늘 말보다 느리고,<br>
+      무르익는 감정은 서두르지 않는다.<br>
+      익어가는 침묵은 언제나 사랑의 다른 이름이었다.
+    </div>
+    <p class="caption">🍅 그날의 나는, 단단해지려다 무너진 토마토였다.</p>
+  </section>
+
+  <div class="divider fade-in"></div>
+
+  <img src="img/03.jpg" alt="토마토 감성 이미지" class="insert-image fade-in">
+
+  <section class="fade-in">
+    <h2>이 책을 고르게 된 이유 💭</h2>
+    <p>
+      이 시집은 소중한 사람에게 선물로 받았다.<br><br>
+      처음에는 제목이 너무 기이하고 묘해서 눈길이 갔고,<br>
+      ‘심장보다 단단한 토마토’라는 말 한마디가 머릿속에 오래 맴돌았다.<br><br>
+      처음 몇 장을 넘겼을 때, 이 시집은 예상보다 더 조용했고, 더 단단했다.<br>
+      고선경 시인의 문장은 감정을 세게 흔드는 대신,  
+      그저 가만히 곁에 앉아 이야기를 들어주는 듯했다.<br><br>
+      익숙한 일상과 작고 연약한 감정들을 껍질째 껴안는 듯한 이 시집을 통해  
+      나는 오히려 내 마음을 들여다보게 되었다.<br>
+      누군가의 마음을 오래 품고 있을 수 있는 문장이라는 게 있다면,  
+      그건 아마 이 책 같은 시가 아닐까 싶다.<br><br>
+      <span class="highlight">그 마음을 그대로 담아, 이 책을 소개하고 싶었다. 🍅</span>
+    </p>
+  </section>
+
+  <div class="divider fade-in"></div>
+
+  <section class="fade-in">
+    <h2 style="text-align: center;">온라인 서점</h2>
+    <div class="buy-links">
+      <a href="https://www.yes24.com/Product/Goods/122434923">📖 YES24</a>
+      <a href="https://product.kyobobook.co.kr/detail/S000201386481">📖 교보문고</a>
+      <a href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=326511839">📖 알라딘</a>
+    </div>
+  </section>
+
+  <footer class="fade-in">
+    <p>🍅 이 웹페이지는 고선경 시인의 『심장보다 단단한 토마토 한 알』을 바탕으로 제작되었습니다.</p>
+    <p>디자인 및 코딩 by 시각디자인학과 2023112899 이다솜 | 웹디자인 수업 과제용</p>
+  </footer>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+        }
+      });
+    });
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+  </script>
+
+</body>
+</html>
